@@ -8,6 +8,8 @@
 namespace app\commands;
 
 use yii\console\Controller;
+use yii\mongodb\Collection;
+use Yii;
 
 /**
  * This command echoes the first argument that you have entered.
@@ -17,14 +19,22 @@ use yii\console\Controller;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class HelloController extends Controller
+class UserController extends Controller
 {
     /**
      * This command echoes what you have entered as the message.
      * @param string $message the message to be echoed.
      */
-    public function actionIndex($message = 'hello world')
+    public function actionCreate($username, $password)
     {
-        echo $message . "\n";
+        $collection = Yii::$app->mongodb->getCollection('users');
+        $salt = md5(time()).substr(rand(0,28),4);
+        $user = $collection->insert([
+            'username' => $username,
+            'create_date'=>time(),
+            'password'=>crypt($password,$salt),
+            'salt'=>$salt
+        ]);
+        echo "User created. ID:".$user->id;
     }
 }
