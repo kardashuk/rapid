@@ -14,6 +14,10 @@ return [
         'gii' => 'yii\gii\Module',
     ],
     'components' => [
+        'mongodb' => [
+            'class' => '\yii\mongodb\Connection',
+            'dsn' => 'mongodb://localhost:27017/rapid',
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
