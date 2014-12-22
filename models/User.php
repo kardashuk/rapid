@@ -1,38 +1,24 @@
 <?php
 
 namespace app\models;
+use yii\mongodb\Query;
 
 class User extends \yii\base\Object implements \yii\web\IdentityInterface
 {
-    public $id;
+    public $_id;
     public $username;
     public $password;
     public $authKey;
     public $accessToken;
-
-    private static $users = [
-        '100' => [
-            'id' => '100',
-            'username' => 'admin',
-            'password' => 'admin',
-            'authKey' => 'test100key',
-            'accessToken' => '100-token',
-        ],
-        '101' => [
-            'id' => '101',
-            'username' => 'demo',
-            'password' => 'demo',
-            'authKey' => 'test101key',
-            'accessToken' => '101-token',
-        ],
-    ];
+    public $create_date;
 
     /**
      * @inheritdoc
      */
     public static function findIdentity($id)
     {
-        return isset(self::$users[$id]) ? new static(self::$users[$id]) : null;
+        $data = (new Query)->from('users')->where(['_id' => $id])->one();
+        return new self($data);
     }
 
     /**
@@ -40,13 +26,8 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
      */
     public static function findIdentityByAccessToken($token, $type = null)
     {
-        foreach (self::$users as $user) {
-            if ($user['accessToken'] === $token) {
-                return new static($user);
-            }
-        }
-
-        return null;
+        $data =  (new Query)->from('users')->where(['accessToken' => $token])->one();
+        return new self($data);
     }
 
     /**
@@ -57,13 +38,8 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
      */
     public static function findByUsername($username)
     {
-        foreach (self::$users as $user) {
-            if (strcasecmp($user['username'], $username) === 0) {
-                return new static($user);
-            }
-        }
-
-        return null;
+        $data = (new Query)->from('users')->where(['username' => $username])->one();
+        return new self($data);
     }
 
     /**
@@ -71,7 +47,7 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
      */
     public function getId()
     {
-        return $this->id;
+        return $this->_id;
     }
 
     /**
@@ -98,6 +74,6 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
      */
     public function validatePassword($password)
     {
-        return $this->password === $password;
+        return crypt($password, $this->password) === $this->password;
     }
 }

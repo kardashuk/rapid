@@ -29,13 +29,13 @@ class UserController extends Controller
     {
 
         $collection = Yii::$app->mongodb->getCollection('users');
-        $salt = md5(time()).substr(rand(0,28),4);
+        $pass = crypt($password, 'rl');
         $userId = $collection->insert([
             'username' => $username,
             'create_date'=>time(),
-            'password'=>crypt($password,$salt),
-            'salt'=>$salt
+            'password'=>$pass
         ]);
+
         echo "User created. ID:".$userId;
     }
 }
