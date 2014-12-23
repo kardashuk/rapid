@@ -13,9 +13,7 @@ use Yii;
 use yii\mongodb\Query;
 
 /**
- * This command echoes the first argument that you have entered.
- *
- * This command is provided as an example for you to learn how to create console commands.
+ * This command can create or remove users.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
@@ -41,12 +39,12 @@ class UserController extends Controller
             echo "User created. ID:".$userId;
         }
     }
-    public function actionRemove($id){
+    public function actionRemove($username){
         $collection = Yii::$app->mongodb->getCollection('users');
-        if ($collection->remove(['_id' => $id], ["justOne" => true])){
+        if ($collection->remove(['username' => $username], ["justOne" => true])){
             echo "User removed";
         }else{
-            echo "Error: User with id $id doesn`t exist.";
+            echo "Error: User with name $username doesn`t exist.";
         }
     }
 }
