@@ -12,6 +12,14 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
     public $accessToken;
     public $create_date;
 
+    public static function find(){
+        $query = new Query;
+        // compose the query
+        $query->from('users');
+        // execute the query
+        //$rows = $query->all();
+        return $query;
+    }
     /**
      * @inheritdoc
      */
