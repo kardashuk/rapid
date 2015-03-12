@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0ee63de-f645-4218-a2da-68b7a74c5aeb" name="Default" comment="">
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\README.md" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\assets\AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\commands\UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\config\console.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\config\params.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\config\web.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\controllers\SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\mail\layouts\html.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\models\LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\models\User.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\modules\api\Module.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\modules\api\controllers\UserController.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\runtime\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\README.md" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codecept.phar" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\_output\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\_pages\LoginPage.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\acceptance.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\acceptance\HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\acceptance\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\acceptance\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\bin\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\bin\yii" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\bin\yii.bat" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\config\acceptance.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\config\config.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\config\functional.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\config\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\fixtures\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\functional\HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\functional\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\functional\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\templates\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\fixtures\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\fixtures\data\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\models\LoginFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\models\UserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\tests\codeception\unit\templates\fixtures\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\views\layouts\main.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\views\site\about.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\views\site\error.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\views\site\index.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\views\site\login.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\assets\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\css\site.css" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\web\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\yii" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\yii\rapid\yii.bat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2/config/web.php" afterPath="$PROJECT_DIR$/v2/config/web.php" />
     </list>
     <ignored path="rapid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,7 +28,7 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v2/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1853">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="27.461538" vertical-offset="714" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -105,10 +43,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="web.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/v2/config/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="59" selection-start="466" selection-end="466" vertical-scroll-proportion="0.24132231" vertical-offset="75" max-vertical-offset="1207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v2/controllers/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="1" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Users.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/v2/models/Users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769" vertical-offset="102" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/v2/config/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="99" selection-end="99" vertical-scroll-proportion="0.112396695" vertical-offset="0" max-vertical-offset="605">
+            <state line="9" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -143,6 +108,8 @@
         <option value="$PROJECT_DIR$/modules/api/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/v2/config/db.php" />
+        <option value="$PROJECT_DIR$/v2/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/v2/config/web.php" />
       </list>
     </option>
   </component>
@@ -226,6 +193,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rapid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rapid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,9 +319,9 @@
         <state line="231" column="9" selection-start="7172" selection-end="7172" vertical-scroll-proportion="-7.576923" vertical-offset="3730" max-vertical-offset="18989" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v2/models/User.php">
+    <entry file="file://$PROJECT_DIR$/v2/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+        <state line="9" column="0" selection-start="178" selection-end="178" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -348,9 +333,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/v2/config/db.php">
+    <entry file="file://$PROJECT_DIR$/v2/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="99" selection-end="99" vertical-scroll-proportion="0.112396695" vertical-offset="0" max-vertical-offset="605">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="27.461538" vertical-offset="714" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="162" selection-end="162" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/models/Users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769" vertical-offset="102" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v2/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="59" selection-start="466" selection-end="466" vertical-scroll-proportion="0.24132231" vertical-offset="75" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
