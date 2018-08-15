@@ -1,0 +1,25 @@
+{
+  "name": "rapid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kardashuk/rapid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kardashuk/rapid/issues"
+  },
+  "homepage": "https://github.com/kardashuk/rapid#readme",
+  "dependencies": {
+    "apollo-server": "^2.0.2",
+    "core-js": "^2.5.7",
+    "graphql": "^0.13.2"
+  }
+}
