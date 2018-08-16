@@ -1,0 +1,11 @@
+scalar Date
+scalar RQL
+
+type Book {
+    title: String
+    author: String
+}
+
+type Query {
+    books(rql:RQL): [Book]
+}
